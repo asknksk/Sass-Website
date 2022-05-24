@@ -1,0 +1,41 @@
+@import "common.scss";
+
+body {
+  height: 100vh;
+}
+.bg-image {
+  nav {
+    ul {
+      li:first-child a {
+        color: #ff652f;
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+}
+main {
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    font-size: 5rem;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    line-height: 5rem;
+    span {
+      color: red;
+    }
+  }
+  h2 {
+    font-weight: 100;
+  }
+}
+footer {
+  height: 10vh;
+}

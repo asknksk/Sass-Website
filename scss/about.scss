@@ -1,0 +1,69 @@
+@import "common.scss";
+body {
+  height: 100vh;
+}
+.bg-image {
+  nav {
+    ul {
+      li.about a {
+        color: #ff652f;
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+}
+main {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  h1 {
+    color: #ff652f;
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem;
+  }
+}
+section {
+  background-color: #272727;
+  height: 100vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  div {
+    border-bottom: 5px solid #ff652f;
+    background-color: #414141;
+    margin: 1rem;
+    padding: 1rem;
+    h2 {
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+    }
+    h3 {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    h5 {
+      font-size: 0.7rem;
+      margin: 0.3rem 0;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 1rem;
+  left: 0.5rem;
+}

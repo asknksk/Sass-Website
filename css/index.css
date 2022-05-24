@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../img/model-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.bg-image {
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
+}
+.bg-image nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 10vh;
+}
+.bg-image nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 1.5rem;
+}
+.bg-image nav ul a {
+  text-decoration: none;
+  color: #eeeeee;
+  transition: color 1.5s;
+}
+.bg-image nav ul a:hover {
+  color: blue;
+}
+.bg-image nav ul li:first-child a {
+  color: #ff652f;
+}
+.bg-image nav ul li:first-child a:hover {
+  color: blue;
+}
+.bg-image main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.5em;
+  color: #eeeeee;
+}
+.bg-image main h1 {
+  font-size: 5rem;
+  border-bottom: 2px solid #fff;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+  line-height: 5rem;
+}
+.bg-image main h1 span {
+  color: red;
+}
+.bg-image main h2 {
+  font-weight: 100;
+}
+.bg-image footer {
+  height: 10vh;
+  color: white;
+  padding: 1rem;
+}
+.bg-image footer a {
+  padding: 6px;
+}
+.bg-image i {
+  color: white;
+  font-size: 2rem;
+  transition: color 1.5s;
+}
+.bg-image i:hover {
+  color: tomato;
+}
+
+/*# sourceMappingURL=index.css.map */

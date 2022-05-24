@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../img/model-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image {
+  background-image: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
+}
+.bg-image main {
+  display: flex;
+  font-size: 1.5em;
+  color: #eeeeee;
+}
+.bg-image nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 10vh;
+}
+.bg-image nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 1.5rem;
+}
+.bg-image nav ul a {
+  text-decoration: none;
+  color: #eeeeee;
+  transition: color 1.5s;
+}
+.bg-image nav ul a:hover {
+  color: blue;
+}
+.bg-image footer {
+  color: white;
+  padding: 1rem;
+}
+.bg-image footer a {
+  padding: 6px;
+}
+.bg-image i {
+  color: white;
+  font-size: 2rem;
+  transition: color 1.5s;
+}
+.bg-image i:hover {
+  color: tomato;
+}
+
+body {
+  height: 100vh;
+}
+
+.bg-image nav ul li.about a {
+  color: #ff652f;
+}
+.bg-image nav ul li.about a:hover {
+  color: blue;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+}
+main h1 {
+  color: #ff652f;
+  font-size: 3rem;
+}
+main p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+section {
+  background-color: #272727;
+  height: 100vh;
+  color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section div {
+  border-bottom: 5px solid #ff652f;
+  background-color: #414141;
+  margin: 1rem;
+  padding: 1rem;
+}
+section div h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+section div h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+section div h5 {
+  font-size: 0.7rem;
+  margin: 0.3rem 0;
+}
+section div p {
+  font-size: 1rem;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 1rem;
+  left: 0.5rem;
+}
+
+/*# sourceMappingURL=about.css.map */
